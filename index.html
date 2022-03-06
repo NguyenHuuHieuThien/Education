@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="shortcut icon" type="image" href="./assets/img/logo1.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Readex+Pro:wght@200&family=Roboto:ital,wght@0,100;0,400;1,100;1,900&display=swap" rel="stylesheet"></head>
+<body>
+    <section class="header">
+        <nav id="nav">
+
+            <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+
+            <div class="navigation" id="navigation">
+                <div id="mobile-menu" onclick="showBar()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>                
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>As a research-oriented University, we have built advanced learning environments and
+                humanities to promote discovery, application and transfer of knowledge, economic sciences, business and management,
+                the foundation of success and lifelong success for learners, nurturing and developing resources,
+                address the socio-economic way, host to the community's prosperous development.
+            </p>
+            <a class="btn" href="">Visit Us to Know More</a>
+        </div>
+    </section>
+
+    <script>
+        var navigation = document.getElementById('mobile-menu')
+        var menu  = document.getElementById('mobile-menu')
+        menu.onclick=function(){
+            navigation.style.height='auto'
+        }
+    </script>
+
+<!-------COURSE------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Cho dù bạn là người mới bắt đầu hay một lập trình viên đã có kinh nghiệm đang tìm kiếm các khóa học để nâng cao kỹ năng bản thân và đạt đến mức độ cao hơn trong lập trình, lộ trình học tập này sẽ giúp bạn đạt được mục tiêu của mình.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>HTML, CSS</h3>
+                <p>Từ Zero đến Hero</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Javascript</h3>
+                <p>{cơ bản}</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Responsive</h3>
+                <p>@Web Design</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-------ROUTE------->
+    <section class="route">
+        <h1>Roadmap for newbies</h1>
+        <p>Whether you are a beginner or an experienced programmer looking for courses to enhance your skills and reach a higher level in programming, this learning path will help you achieve your goals. get your goal.</p>
+            <div class="route-col">
+                <img src="./assets/img/start.png" alt="">
+                <div class="description">
+                    <h3>Bắt đầu</h3>
+                    <p>Trước tiên, chúng ta sẽ tìm hiểu về phương pháp học lập trình, kỹ năng đặt mục tiêu và các khái niệm kỹ thuật như: domain, client, server...</p>
+                    <a href="">Chi Tiết</a>
+                </div>
+                
+            </div>
+
+            <div class="route-col">
+                <img src="./assets/img/FE.png" alt="">
+                <div class="description">
+                    <h3>Front-end</h3>
+                    <p>Lập trình viên Front-end là người xây dựng ra giao diện websites. Trong phần này F8 sẽ chia sẻ cho bạn lộ trình...</p>
+                    <a href="">Chi Tiết</a>
+                </div>
+                
+            </div>
+
+            <div class="route-col">
+                <img src="./assets/img/BE.png" alt="">
+                <div class="description">
+                    <h3>Back-end</h3>
+                    <p>Trái với Front-end thì lập trình viên Back-end là người làm việc với dữ liệu, công việc thường nặng tính logic hơn...</p>
+                    <a href="">Chi Tiết</a>
+                </div>
+                
+            </div>
+    </section>
+
+<!--------Some websites to learn programming--------->
+    <section class="codelearn-web">
+        <h1>Some websites to learn programming</h1>
+        <p>Self-taught programming is always a necessity of every programmer. There is nothing like self-study, self-study, self-study and self-improvement. But among so many resources online, choosing one that is really effective and cost-effective is not easy. Codelearn will help you pocket some very good names!</p>
+        <div class="row">
+            <div class="web-col">
+                <img src="./assets/img/codelearn.jpg" alt="">
+                <div class="layer">
+                    <h3>Click here</h3>
+                </div>
+                <div class="description">
+                    <h3>Codelearn.io</h3>
+                    <p>Hệ thống và nền tảng tương tác trực tuyến hoàn toàn miễn phí cho phép người dùng học tập, thực hành và đánh giá các kỹ năng lập trình ngay lập tức</p>
+                </div>
+            </div>
+
+            <div class="web-col">
+                <img src="./assets/img/edx.jpg" alt="">
+                <div class="layer">
+                    <h3>Click here</h3>
+                </div>
+                <div class="description">
+                    <h3>EDX</h3>
+                    <p>Là một nền tảng trực tuyến hàng đầu với mục tiêu phi lợi nhuận, EDX là một mã nguồn mở được thành lập vào năm 2012 bởi MIT và Harvard</p>
+                </div>
+            </div>
+
+            <div class="web-col">
+                <img src="./assets/img/codeacademy.jpg" alt="">
+                <div class="layer">
+                    <h3>Click here</h3>
+                </div>
+                <div class="description">
+                    <h3>CodeCademy</h3>
+                    <p>Trang web cung cấp các khóa học về các ngôn ngữ JavaScript, HTML and CSS, PHP, jQuery, Ruby, and Python với hơn 300 giờ nội dung miễn phí</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------testimonials------->
+    <section class="testimonials">
+        <h1>What Our Everyone Says</h1>
+        <p>Here are some comments from our everyone!</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="./assets/img/user1.jpg" alt="">
+                <div>
+                    <p>
+                        Hi, lại là mình đây hehe. Hôm nay mình chia sẻ về những suy nghĩ sai của một người mới (cụ thể hơn là các bác sinh viên)</p>
+                    <h3>Yến</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="./assets/img/user2.jpg" alt="">
+                <div>
+                    <p>
+                        Chào các bạn, đây là một trang docs JS hay nhất mà mình biết được trong các trang về lập trình</p>
+                    <h3>Thiên</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------Call To Action ------->
+    <section class="contact">
+        <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+           
+            <a class="btn" href="">Visit Us to Know More</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-infor">
+        <div class="row">
+            <div class="col-3">
+                <img src="./assets/img/logo.png" alt="">
+                <ul>
+                    <li>Email: hieuthien3347@gmail.com</li>
+                    <li>Địa chỉ: K39/3 Trương Chí Cương, Hòa Cường Nam, Q.Hải Châu, TP.Đà Nẵng</li>
+                    <li><a href="#"><img src="./assets/img/icon1.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <div class="footer-des">
+                    <h3>Hỗ Trợ</h3>
+                    <ul class="link-hover">
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#">Bảo Mật</a></li>
+                        <li><a href="#">Điều Khoản</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="footer-des">
+                    <h3>About Us</h3>
+                    <ul class="link-hover">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Cơ hội việc làm</a></li>
+                        <li><a href="#">Đối tác</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-3">
+                    <h3>Đơn vị chủ quản</h3>
+                    <ul>
+                        <li>Người đại diện: Nguyễn Hữu Hiếu Thiên - Giám Đốc</li>
+                        <li>Mã số doanh nghiệp: 0108721536</li>
+                        <li>Ngày thành lập: 03/05/2019</li>
+                        <li>Nơi cấp: Sở kế hoạch và đầu tư Tỉnh Quảng Trị</li>
+                    </ul>
+                </div>
+
+        </div>
+    </div>
+    <div class="footer-end">
+        <div class="footer-copyright">
+            <div class="copy-right">
+                &copy; 2021 Eduford | Make website with HTML, CSS, JS from <a href="https://www.facebook.com/do.mino.7568/">HieuThien</a>
+            </div>
+
+            <div class="social-network">
+                <a  href=""><i class="fab fa-facebook-f"></i></a>
+                <a  href=""><i class="fab fa-instagram"></i></a>
+                <a  href=""><i class="fab fa-twitter"></i></a>
+                <a  href=""><i class="fab fa-youtube"></i></a>
+                <a  href=""><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

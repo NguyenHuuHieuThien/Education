@@ -1,0 +1,115 @@
+@media(max-width: 740px){
+    .text-box h1{
+        font-size: 20px;
+        
+    }
+
+    nav{
+        padding: 0;
+    }
+
+    .navigation{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        right: 0px;
+        text-align: right;
+        z-index: 1;
+        transition: 0.5s;
+
+    }
+
+    /* #mobile-menu{
+        width: 100%;
+    } */
+
+
+    .navigation ul{
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    
+
+    .navigation ul li{
+        display: block;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .navigation ul li a{
+        display: inline-block;
+    }
+
+    .footer-des ul li a::after
+
+    #mobile-menu{
+        display: block;
+        /* position: fixed;
+        top: 0;
+        right: 7%;
+        color: #fff; */
+    }
+
+    #mobile-menu i{
+        font-size: 25px;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* nav .fas:hover{
+        color: #f44336;
+    } */
+
+        /* course */
+
+    .row{
+        display: block;
+    }
+
+    .route-col{
+        display: block;
+        height: 400px;
+        padding-left: 20px;
+    }
+
+    .route img{
+        width: 70%;
+    }
+
+    .col-3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-des{
+        margin: 0;
+    }
+
+    .footer-copyright{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .copy-right{
+        width: 100%;
+    }
+
+    .social-network{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-network a{
+        font-size: 15px;
+    }
+
+    .social-network .fab{
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+}
